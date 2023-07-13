@@ -1,1 +1,1 @@
-Hello world in Clanguage as full stack software engineer
+0x00. C - Hello, World
