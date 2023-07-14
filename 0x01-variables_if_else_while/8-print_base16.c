@@ -1,16 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - prints the lowercase alphabet in reverse
- *        only use the putchar function twice
+ * main - prints all the numbers of base 16 in lowercase
+ *        only use putchar function thrice
  *
  * Return: Always 0
  */
 int main(void)
 {
+	int num;
 	char letter;
 
-	for (letter = 'z'; letter >= 'a'; letter--)
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+
+	for (letter = 'a'; letter <= 'f'; letter++)
 		putchar(letter);
 
 	putchar('\n');
